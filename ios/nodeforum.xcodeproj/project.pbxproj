@@ -35,11 +35,7 @@
 		2DCD954D1E0B4F2C00145EB5 /* nodeforumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* nodeforumTests.m */; };
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
-		9C2E35B81E66AE38001A920E /* TestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2E35B71E66AE38001A920E /* TestManager.m */; };
-		9C2E35BB1E66AE6D001A920E /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2E35BA1E66AE6D001A920E /* Test.m */; };
 		9CB3F9851E694E510052AD3D /* libCounting.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CB3F96B1E694E490052AD3D /* libCounting.a */; };
-		9CD9E3941E665B3E00DDF6C2 /* RNTMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CD9E3931E665B3E00DDF6C2 /* RNTMap.m */; };
-		9CD9E3B01E665C9100DDF6C2 /* RNTMapManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CD9E3AF1E665C9100DDF6C2 /* RNTMapManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -242,7 +238,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
 		00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTActionSheet.xcodeproj; path = "../node_modules/react-native/Libraries/ActionSheetIOS/RCTActionSheet.xcodeproj"; sourceTree = "<group>"; };
 		00C302B51ABCB90400DB3ED1 /* RCTGeolocation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTGeolocation.xcodeproj; path = "../node_modules/react-native/Libraries/Geolocation/RCTGeolocation.xcodeproj"; sourceTree = "<group>"; };
 		00C302BB1ABCB91800DB3ED1 /* RCTImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTImage.xcodeproj; path = "../node_modules/react-native/Libraries/Image/RCTImage.xcodeproj"; sourceTree = "<group>"; };
@@ -266,15 +261,7 @@
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
-		9C2E35B61E66AE38001A920E /* TestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestManager.h; sourceTree = "<group>"; };
-		9C2E35B71E66AE38001A920E /* TestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestManager.m; sourceTree = "<group>"; };
-		9C2E35B91E66AE6D001A920E /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
-		9C2E35BA1E66AE6D001A920E /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 		9CB3F9661E694E490052AD3D /* Counting.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Counting.xcodeproj; path = "../../react-native-counting-master/ios/Counting.xcodeproj"; sourceTree = "<group>"; };
-		9CD9E3921E665B3E00DDF6C2 /* RNTMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNTMap.h; sourceTree = "<group>"; };
-		9CD9E3931E665B3E00DDF6C2 /* RNTMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNTMap.m; sourceTree = "<group>"; };
-		9CD9E3AE1E665C9100DDF6C2 /* RNTMapManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNTMapManager.h; sourceTree = "<group>"; };
-		9CD9E3AF1E665C9100DDF6C2 /* RNTMapManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNTMapManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -409,21 +396,12 @@
 		13B07FAE1A68108700A75B9A /* nodeforum */ = {
 			isa = PBXGroup;
 			children = (
-				9CD9E3921E665B3E00DDF6C2 /* RNTMap.h */,
-				9CD9E3931E665B3E00DDF6C2 /* RNTMap.m */,
-				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
-				9CD9E3AE1E665C9100DDF6C2 /* RNTMapManager.h */,
-				9CD9E3AF1E665C9100DDF6C2 /* RNTMapManager.m */,
-				9C2E35B91E66AE6D001A920E /* Test.h */,
-				9C2E35BA1E66AE6D001A920E /* Test.m */,
-				9C2E35B61E66AE38001A920E /* TestManager.h */,
-				9C2E35B71E66AE38001A920E /* TestManager.m */,
 			);
 			name = nodeforum;
 			sourceTree = "<group>";
@@ -957,11 +935,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
-				9CD9E3941E665B3E00DDF6C2 /* RNTMap.m in Sources */,
-				9C2E35B81E66AE38001A920E /* TestManager.m in Sources */,
-				9C2E35BB1E66AE6D001A920E /* Test.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
-				9CD9E3B01E665C9100DDF6C2 /* RNTMapManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
